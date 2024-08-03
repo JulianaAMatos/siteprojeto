@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzanbag</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu-navegacao">
+          <ul class="sidebar">
+            <li onclick=hideSiderbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                  viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+          <ul>
+            <li><img id="Logo" style="height: 80px" src="assets/image/Mundo Reciclavel (1).png" alt=""></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Sobre nós</a></li>
+            <li class="hideOnMobile"><a href="#">Produtos</a></li>
+            <li class="hideOnMobile"><a href="#">Login</a></li>
+            <li class="menu-botton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                  viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg></a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="Apresentacao">
+            <p>Nossos produtos são ideais para sua casa e empresa com sacos de lixos reforçados garantimos  praticidade e segurança na hora de realizar o descarte do seu lixo com preços que cabem no seu bolso.</p>
+            <img id="atencao" src="imagematenção.png">
+        </div>
+
+        <div class="produtoscard">
+            <h2>Conheça nossos produtos:</h1>
+           <div class="carrosel">
+            <ul class="container">
+            <li class="card">
+                <div class="img">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
+                </div>
+                <h2>Saco de Lixo</h2>
+                <span>20 Litros</span>
+            </li>
+
+            <li class="card">
+                <div class="img">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
+                </div>
+                <h2>Saco de Lixo</h2>
+                <span>20 Litros</span>
+            </li>
+
+            <li class="card">
+                <div class="img">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
+                </div>
+                <h2>Saco de Lixo</h2>
+                <span>30 Litros</span>
+            </li>
+
+            <li class="card">
+                <div class="img">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
+                </div>
+                <h2>Saco de Lixo</h2>
+                <span>40 Litros</span>
+            </li>
+
+            </ul>
+           </div>
+        </div>
+      </main>
+</body>
+</html>
