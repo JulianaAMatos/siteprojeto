@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suzanbag</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="script.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -21,7 +24,7 @@
             <li><a href="#">Login</a></li>
           </ul>
           <ul>
-            <li><img id="Logo" style="height: 80px" src="assets/image/Mundo Reciclavel (1).png" alt=""></li>
+            <!-- <li><img id="Logo" style="height: 80px" src="assets/image/Mundo Reciclavel (1).png" alt=""></li> -->
             <li class="hideOnMobile"><a href="#">Home</a></li>
             <li class="hideOnMobile"><a href="#">Sobre nós</a></li>
             <li class="hideOnMobile"><a href="#">Produtos</a></li>
@@ -41,11 +44,22 @@
 
         <div class="produtoscard">
             <h2>Conheça nossos produtos:</h1>
-           <div class="carrosel">
+        <section class="card-produto"> 
+
+           <div class="carrossel">
+             <i id="left" class="fa-duotone fa-solid fa-angle-left"></i>
             <ul class="container">
             <li class="card">
                 <div class="img">
-                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo" draggable="false">
+                </div>
+                <h2>Saco de Lixo</h2>
+                <span>10 Litros</span>
+            </li>
+
+            <li class="card">
+                <div class="img">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo" draggable="false">
                 </div>
                 <h2>Saco de Lixo</h2>
                 <span>20 Litros</span>
@@ -53,15 +67,7 @@
 
             <li class="card">
                 <div class="img">
-                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
-                </div>
-                <h2>Saco de Lixo</h2>
-                <span>20 Litros</span>
-            </li>
-
-            <li class="card">
-                <div class="img">
-                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo" draggable="false">
                 </div>
                 <h2>Saco de Lixo</h2>
                 <span>30 Litros</span>
@@ -69,15 +75,31 @@
 
             <li class="card">
                 <div class="img">
-                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo" draggable="false">
                 </div>
                 <h2>Saco de Lixo</h2>
                 <span>40 Litros</span>
             </li>
 
-            </ul>
-           </div>
+            <li class="card">
+                <div class="img">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo" draggable="false">
+                </div>
+                <h2>Saco de Lixo</h2>
+                <span>50 Litros</span>
+            </li>
+            <li class="card">
+                <div class="img">
+                    <img src="sacosdelixo.webp" alt="Imagem de várias unidades de sacos de lixo" draggable="false">
+                </div>
+                <h2>Saco de Lixo</h2>
+                <span>60 Litros</span>
+            </li>
+        </ul>
+        <i id="right" class="fa-duotone fa-solid fa-angle-right"></i>
         </div>
+    </div>
+    </section> 
       </main>
 </body>
 </html>
